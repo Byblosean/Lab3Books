@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Оберіть автора"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/spinnerBooks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Оберіть рік видання"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupYears"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/radio1840"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1840" />
+
+        <RadioButton
+            android:id="@+id/radio1856"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1856" />
+
+        <RadioButton
+            android:id="@+id/radio1913"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1913" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+
+    <Button
+        android:id="@+id/btnOpen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Відкрити"
+        android:layout_marginTop="12dp" />
+
+
+</LinearLayout>
