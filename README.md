@@ -122,7 +122,7 @@
 ![Результат](screenshots/result_screen.png)
 
 ### Перегляд збережених даних
-![Сховище](Screenshots/storage_screen.png)
+![Сховище](screenshots/storage_screen.png)
 
 ---
 
